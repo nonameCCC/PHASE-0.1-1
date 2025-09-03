@@ -1,0 +1,6178 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6159c362-f2b3-4459-b5ce-b63194590b55")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x05"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x05_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Zener"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:Q_Dual_NPN_C2C1E1E2"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 7.62 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_Dual_NPN_C2C1E1E2"
+				(at 7.62 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Double NPN transistors, current mirror configuration"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_Dual_NPN_C2C1E1E2_0_1"
+				(circle
+					(center -5.08 3.048)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.175 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.175 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.778) (xy -4.318 -1.27) (xy -4.826 -2.286) (xy -3.81 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -3.175 1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 3.048) (xy -5.08 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy -3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.778) (xy 4.318 -1.27) (xy 4.826 -2.286) (xy 3.81 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.175 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_Dual_NPN_C2C1E1E2_1_1"
+				(pin passive line
+					(at -5.08 5.08 270)
+					(length 2.54)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 90)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 270)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 90)
+					(length 2.54)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:Q_Dual_NPN_NPN_E1B1C2E2B2C1"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_Dual_NPN_NPN_E1B1C2E2B2C1"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual NPN transistor, 6 pin package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_Dual_NPN_NPN_E1B1C2E2B2C1_0_1"
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Q_Dual_NPN_NPN_E1B1C2E2B2C1_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Q_Dual_NPN_NPN_E1B1C2E2B2C1_2_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:Q_Dual_PNP_C2C1E1E2"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 7.62 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_Dual_PNP_C2C1E1E2"
+				(at 7.62 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Double PNP transistors, current mirror configuration"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_Dual_PNP_C2C1E1E2_0_1"
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.175 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.175 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 -3.048)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.937 1.905) (xy -4.445 1.397) (xy -3.429 0.889) (xy -3.937 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -3.175 1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -3.048) (xy -5.08 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy -3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.937 1.905) (xy 4.445 1.397) (xy 3.429 0.889) (xy 3.937 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.175 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_Dual_PNP_C2C1E1E2_1_1"
+				(pin passive line
+					(at -5.08 5.08 270)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 90)
+					(length 2.54)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 270)
+					(length 2.54)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 90)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:Q_Dual_PNP_PNP_E1B1C2E2B2C1"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_Dual_PNP_PNP_E1B1C2E2B2C1"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual PNP transistor, 6 pin package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_Dual_PNP_PNP_E1B1C2E2B2C1_0_1"
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Q_Dual_PNP_PNP_E1B1C2E2B2C1_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Q_Dual_PNP_PNP_E1B1C2E2B2C1_2_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 157.48 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0783b5e8-e4eb-4cab-8425-0635a7c94563")
+	)
+	(junction
+		(at 106.68 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09339e19-13c4-4f0a-a609-dae08da9b0f0")
+	)
+	(junction
+		(at 116.84 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11d7b439-0c2e-42fc-852f-5f6f0ee92946")
+	)
+	(junction
+		(at 152.4 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e71774b-7ef5-4555-94af-2e7e2ae3255d")
+	)
+	(junction
+		(at 78.74 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23256b0b-c563-4232-84b8-22d660b670d1")
+	)
+	(junction
+		(at 58.42 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2613fa8a-1efd-4e48-a6f4-f1a48239b836")
+	)
+	(junction
+		(at 78.74 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a7d5f85-c0e1-4f67-afa7-9baf3ce8ddf6")
+	)
+	(junction
+		(at 91.44 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42b8d975-93f7-4423-8756-9a119b0f58de")
+	)
+	(junction
+		(at 180.34 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57163a2f-19e0-450a-b9f9-7e2a22df60e2")
+	)
+	(junction
+		(at 157.48 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "674fcf45-4799-440f-8cc9-680e207dbcd7")
+	)
+	(junction
+		(at 147.32 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74eb86d3-d134-42d7-bab8-3861ccd9a66d")
+	)
+	(junction
+		(at 68.58 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77991758-3ba2-405d-bb7a-bc7f6348b981")
+	)
+	(junction
+		(at 106.68 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85a807cd-664c-48eb-8250-d9c6d9a1cc49")
+	)
+	(junction
+		(at 180.34 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86d637b1-4508-4df2-a25c-2b1364ee05ea")
+	)
+	(junction
+		(at 63.5 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e929528-0233-4566-90fb-ec84c387b28c")
+	)
+	(junction
+		(at 167.64 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "904c4924-1b59-476e-8d7e-57491dc67f0b")
+	)
+	(junction
+		(at 81.28 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "920b1ec6-e38e-490e-aa63-5a6190e2fa5d")
+	)
+	(junction
+		(at 205.74 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "987a99f9-a931-42a5-9096-0786fcc2b765")
+	)
+	(junction
+		(at 91.44 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fde6d74-ddac-4656-be93-08e0f9c50ccd")
+	)
+	(junction
+		(at 78.74 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8af0d4e-abf0-441e-b6b1-4e26015a705c")
+	)
+	(junction
+		(at 170.18 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3689218-1f1a-402c-9c8e-3301b1cf0811")
+	)
+	(junction
+		(at 167.64 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c11fbe67-cc1c-4dc7-bfcb-869773eabc4b")
+	)
+	(junction
+		(at 63.5 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfbbba1c-2f5c-4769-8ef7-312d2d5d750e")
+	)
+	(junction
+		(at 106.68 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2787087-4517-43ed-aac0-17af3ce7ff91")
+	)
+	(junction
+		(at 195.58 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6cf7ce9-2fc3-4c5a-af48-24e6c3d9505c")
+	)
+	(junction
+		(at 167.64 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfc49bf8-45b5-4765-9c55-06d01e975327")
+	)
+	(junction
+		(at 68.58 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e182545f-fdb6-4893-86f7-35e7d4d1f291")
+	)
+	(junction
+		(at 195.58 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e428f10b-d19a-4099-ab4a-c073a10f34ad")
+	)
+	(junction
+		(at 180.34 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb2be59d-3db7-4eaf-b43e-27b6a7285660")
+	)
+	(junction
+		(at 195.58 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2f34e6f-ca03-433f-9100-044f0c15583c")
+	)
+	(junction
+		(at 91.44 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f54abeff-8e8d-4f42-9e84-a4edbc4a15d0")
+	)
+	(junction
+		(at 152.4 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc390c42-7cb1-496b-9386-42b162622252")
+	)
+	(wire
+		(pts
+			(xy 167.64 35.56) (xy 167.64 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00a54c98-3e90-458c-b22a-a9b14894ccec")
+	)
+	(wire
+		(pts
+			(xy 195.58 35.56) (xy 195.58 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04809491-406a-4f3b-aae8-2a59b4212dd2")
+	)
+	(wire
+		(pts
+			(xy 152.4 27.94) (xy 152.4 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d29709-be29-41f8-9015-aae8e8ced051")
+	)
+	(wire
+		(pts
+			(xy 91.44 101.6) (xy 91.44 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a9b61e2-fac7-4707-9dba-fd8a20cf0ef9")
+	)
+	(wire
+		(pts
+			(xy 104.14 78.74) (xy 106.68 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac68c8b-15c3-4449-baee-0a7b429870de")
+	)
+	(wire
+		(pts
+			(xy 180.34 25.4) (xy 180.34 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc241e2-df8f-4a43-900b-ae6b662889cd")
+	)
+	(wire
+		(pts
+			(xy 68.58 76.2) (xy 81.28 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e6027cc-a5e1-46a1-89ed-05546d43f288")
+	)
+	(wire
+		(pts
+			(xy 185.42 78.74) (xy 182.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ae959c-50e2-45f6-9bb7-ffb8d6cf18ea")
+	)
+	(wire
+		(pts
+			(xy 147.32 88.9) (xy 147.32 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "151586d8-7300-4212-91f4-9e88b7bd76d9")
+	)
+	(wire
+		(pts
+			(xy 116.84 76.2) (xy 116.84 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19b1f13f-ec48-4ab9-8b77-bd560369bb82")
+	)
+	(wire
+		(pts
+			(xy 78.74 104.14) (xy 91.44 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b5db65d-3768-49f6-a843-eae5d9511ab2")
+	)
+	(wire
+		(pts
+			(xy 58.42 55.88) (xy 58.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b7ca6b2-f733-4491-9fcd-be2640ec8dfa")
+	)
+	(wire
+		(pts
+			(xy 68.58 104.14) (xy 68.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c7e001e-6351-4416-8f0b-6158017680bd")
+	)
+	(wire
+		(pts
+			(xy 68.58 55.88) (xy 63.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de4ba6a-613f-484d-9708-bdcd75f130b0")
+	)
+	(wire
+		(pts
+			(xy 195.58 91.44) (xy 195.58 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22031da2-1b03-44db-b055-5f52a41f3fec")
+	)
+	(wire
+		(pts
+			(xy 106.68 25.4) (xy 106.68 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2551e700-c900-41bf-931a-b6ef7118fc48")
+	)
+	(wire
+		(pts
+			(xy 78.74 25.4) (xy 78.74 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ff40eb-28c0-4915-a41a-f46816b072e8")
+	)
+	(wire
+		(pts
+			(xy 157.48 104.14) (xy 167.64 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b477d67-f948-4c7f-a8ab-051d6e6341ac")
+	)
+	(wire
+		(pts
+			(xy 78.74 43.18) (xy 78.74 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c266dbb-e71d-470a-955d-513a877c270d")
+	)
+	(wire
+		(pts
+			(xy 160.02 43.18) (xy 167.64 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eda06bf-301a-4ea5-9806-61482dd56af3")
+	)
+	(wire
+		(pts
+			(xy 193.04 78.74) (xy 195.58 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fd3cb9b-2a68-4e4f-8db1-921ef320dd6d")
+	)
+	(wire
+		(pts
+			(xy 106.68 91.44) (xy 106.68 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f300fc-0c88-4b0f-a54e-46254f36f6b9")
+	)
+	(wire
+		(pts
+			(xy 182.88 78.74) (xy 182.88 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3572c2cb-a0be-46ac-93f3-3ddcc1f9f6ba")
+	)
+	(wire
+		(pts
+			(xy 81.28 83.82) (xy 81.28 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "365e6e85-1dc3-49b3-b564-62da3538195c")
+	)
+	(wire
+		(pts
+			(xy 205.74 63.5) (xy 205.74 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d8def8-a237-413c-ae6d-b195a582d2d6")
+	)
+	(wire
+		(pts
+			(xy 180.34 25.4) (xy 195.58 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aca2815-0ff1-40f9-ab3d-362ef1d49baf")
+	)
+	(wire
+		(pts
+			(xy 180.34 86.36) (xy 187.96 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e2470f5-2cdf-4492-98b1-a8850fe1d3ab")
+	)
+	(wire
+		(pts
+			(xy 106.68 104.14) (xy 116.84 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f53c17f-2f4a-4629-b8c4-e93f34e2cf63")
+	)
+	(wire
+		(pts
+			(xy 147.32 68.58) (xy 147.32 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4479d854-b238-414a-9b5e-0595ef446ad7")
+	)
+	(wire
+		(pts
+			(xy 106.68 76.2) (xy 106.68 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452976ac-d852-44a3-a94e-c1eec9dde0c6")
+	)
+	(wire
+		(pts
+			(xy 68.58 68.58) (xy 68.58 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48583272-2986-4a08-89c9-75402b908dbe")
+	)
+	(wire
+		(pts
+			(xy 167.64 25.4) (xy 180.34 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486acb48-70ba-4b02-93ff-192e949be4c3")
+	)
+	(wire
+		(pts
+			(xy 144.78 104.14) (xy 147.32 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb9bafc-5aec-4f79-85e5-c72d8782f1ec")
+	)
+	(wire
+		(pts
+			(xy 167.64 43.18) (xy 167.64 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eef2a8a-0029-44fa-9d10-77b45431545a")
+	)
+	(wire
+		(pts
+			(xy 91.44 25.4) (xy 91.44 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe19731-b37f-4c0d-a429-d3f0bbc78f27")
+	)
+	(wire
+		(pts
+			(xy 106.68 60.96) (xy 106.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5045742a-d23b-40ef-bd21-9c893adaa0e6")
+	)
+	(wire
+		(pts
+			(xy 63.5 27.94) (xy 63.5 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5129a58f-c616-45d1-b0ee-e36f3e74e583")
+	)
+	(wire
+		(pts
+			(xy 157.48 76.2) (xy 170.18 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "515fd247-72b9-41da-9bf5-3b5acca236c0")
+	)
+	(wire
+		(pts
+			(xy 106.68 35.56) (xy 106.68 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a2cf64-5922-4a19-9985-672d8b6096fa")
+	)
+	(wire
+		(pts
+			(xy 152.4 48.26) (xy 152.4 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55d5a65f-917c-4557-ab82-1e726bd4ee3a")
+	)
+	(wire
+		(pts
+			(xy 93.98 83.82) (xy 81.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579f33eb-f33c-41a3-a7f4-6ef1b08e58ae")
+	)
+	(wire
+		(pts
+			(xy 195.58 104.14) (xy 205.74 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba06119-1647-48a7-8b99-2b384c55c246")
+	)
+	(wire
+		(pts
+			(xy 182.88 83.82) (xy 170.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d5e5147-5e4e-4d9c-91bd-bb09d23eaa1c")
+	)
+	(wire
+		(pts
+			(xy 152.4 25.4) (xy 167.64 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61b4bddb-2e39-4e40-aa0e-f0ea6e0cb8fc")
+	)
+	(wire
+		(pts
+			(xy 91.44 86.36) (xy 99.06 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62bd11e6-298f-4a3d-8d21-5a9e26e10c7f")
+	)
+	(wire
+		(pts
+			(xy 106.68 78.74) (xy 106.68 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b307a2-c8e0-4ca9-a353-6a073f163ff7")
+	)
+	(wire
+		(pts
+			(xy 58.42 101.6) (xy 58.42 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "672fd4f9-16a7-497b-9976-c8bfd9504e76")
+	)
+	(wire
+		(pts
+			(xy 78.74 43.18) (xy 99.06 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6801fe08-642b-4f1a-abf2-3afcee02d481")
+	)
+	(wire
+		(pts
+			(xy 205.74 25.4) (xy 205.74 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cfc6ab2-ea9d-44e1-b16e-33a425602e67")
+	)
+	(wire
+		(pts
+			(xy 63.5 25.4) (xy 78.74 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "704dcb46-5410-4c4d-b000-5c61fce2ffe9")
+	)
+	(wire
+		(pts
+			(xy 91.44 81.28) (xy 91.44 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79520e1c-9f61-42ef-95d7-1c93dd1a119f")
+	)
+	(wire
+		(pts
+			(xy 147.32 101.6) (xy 147.32 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79812c94-96bc-4a73-8780-bbac2c2f935a")
+	)
+	(wire
+		(pts
+			(xy 167.64 43.18) (xy 187.96 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b01dc43-b95a-4744-acdb-a9649d899fde")
+	)
+	(wire
+		(pts
+			(xy 157.48 104.14) (xy 157.48 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81131eef-d7aa-451f-8405-caceb5878809")
+	)
+	(wire
+		(pts
+			(xy 157.48 68.58) (xy 157.48 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8154f463-4f41-4a48-a5dc-d19d22d502e5")
+	)
+	(wire
+		(pts
+			(xy 157.48 55.88) (xy 152.4 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825626fd-f0c2-4bad-a8ad-c13c2dc43e4d")
+	)
+	(wire
+		(pts
+			(xy 68.58 58.42) (xy 68.58 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8599dde2-9a58-4e42-a777-06c53514dcf1")
+	)
+	(wire
+		(pts
+			(xy 63.5 48.26) (xy 63.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86baa397-b542-410e-8877-6d33ff8cee86")
+	)
+	(wire
+		(pts
+			(xy 91.44 86.36) (xy 91.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89111f5d-f8b0-4406-9e78-b7a766f27ec9")
+	)
+	(wire
+		(pts
+			(xy 152.4 35.56) (xy 152.4 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c2fbb07-d39e-4b1c-bea8-d36603872d0f")
+	)
+	(wire
+		(pts
+			(xy 91.44 104.14) (xy 106.68 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c9b54a9-4a6b-4732-a2cd-a76a5613e506")
+	)
+	(wire
+		(pts
+			(xy 195.58 25.4) (xy 195.58 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd8c57b-0e68-4a3a-a891-1e0cd34f6ce6")
+	)
+	(wire
+		(pts
+			(xy 147.32 104.14) (xy 157.48 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed2f26b-492c-47a8-9335-329f19ba05bf")
+	)
+	(wire
+		(pts
+			(xy 55.88 104.14) (xy 58.42 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928f92b8-8ee0-490c-8aa6-446f6e337c9f")
+	)
+	(wire
+		(pts
+			(xy 157.48 88.9) (xy 157.48 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95705f0e-0439-4cce-90d8-88fc94571e16")
+	)
+	(wire
+		(pts
+			(xy 63.5 55.88) (xy 58.42 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ac5bc3-aec7-45a0-aaa6-56494637afca")
+	)
+	(wire
+		(pts
+			(xy 195.58 76.2) (xy 195.58 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e1eecdc-0d13-469f-b4de-3541dc3dbbd0")
+	)
+	(wire
+		(pts
+			(xy 116.84 60.96) (xy 116.84 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec69abc-d4ec-4b6c-b085-a86b6890bf5e")
+	)
+	(wire
+		(pts
+			(xy 195.58 60.96) (xy 195.58 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f0987b2-704d-4bdd-8ed9-f37c668f3534")
+	)
+	(wire
+		(pts
+			(xy 93.98 78.74) (xy 93.98 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a266b3d3-8ded-4f9b-b6ca-5cc90c7782a7")
+	)
+	(wire
+		(pts
+			(xy 152.4 55.88) (xy 147.32 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f93136-939d-4129-96ca-6ecc4c0cc2bd")
+	)
+	(wire
+		(pts
+			(xy 58.42 68.58) (xy 58.42 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e437f5-87f8-41ea-8e30-825548fbb681")
+	)
+	(wire
+		(pts
+			(xy 116.84 63.5) (xy 119.38 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87456be-8adb-4b13-9795-bd6b3162c343")
+	)
+	(wire
+		(pts
+			(xy 116.84 63.5) (xy 116.84 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab93270-c7ea-4214-973a-7ced34d1d9cd")
+	)
+	(wire
+		(pts
+			(xy 167.64 101.6) (xy 167.64 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad611402-d722-4038-aaeb-38ce8a5c9233")
+	)
+	(wire
+		(pts
+			(xy 180.34 81.28) (xy 180.34 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aec48038-b62f-4dbd-8b8a-b2bcfcb24a12")
+	)
+	(wire
+		(pts
+			(xy 116.84 25.4) (xy 116.84 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af65ef34-f07e-4331-ac20-83b26788fe1a")
+	)
+	(wire
+		(pts
+			(xy 195.58 78.74) (xy 195.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b219dca0-a6ea-4e7e-ba78-23fd89b23cca")
+	)
+	(wire
+		(pts
+			(xy 167.64 25.4) (xy 167.64 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c33c0a-fcae-448f-98c0-2a891991f0e5")
+	)
+	(wire
+		(pts
+			(xy 78.74 25.4) (xy 91.44 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b50f2893-3fe5-49ba-a3eb-bb851786c532")
+	)
+	(wire
+		(pts
+			(xy 91.44 25.4) (xy 106.68 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9287829-2a0c-41d4-8f9d-5bb3fa23af9b")
+	)
+	(wire
+		(pts
+			(xy 157.48 58.42) (xy 157.48 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be81fcb5-e954-4309-b132-76a751352100")
+	)
+	(wire
+		(pts
+			(xy 195.58 25.4) (xy 205.74 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c00a5962-033a-43d6-b0de-3e5496909004")
+	)
+	(wire
+		(pts
+			(xy 180.34 101.6) (xy 180.34 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e0d5a9-0873-4835-bdc3-dfccfcb74e25")
+	)
+	(wire
+		(pts
+			(xy 149.86 25.4) (xy 152.4 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa57887-1a6d-4e6b-9bb4-fcb3528fb9ef")
+	)
+	(wire
+		(pts
+			(xy 58.42 88.9) (xy 58.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc54e720-5c9a-4a1e-a89f-dfd1f31166a2")
+	)
+	(wire
+		(pts
+			(xy 68.58 104.14) (xy 78.74 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf3d90ab-65d4-4cc4-bc88-a1a1b44e0591")
+	)
+	(wire
+		(pts
+			(xy 195.58 48.26) (xy 195.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0929d20-0cec-48aa-9a41-b8673cfc4a11")
+	)
+	(wire
+		(pts
+			(xy 106.68 48.26) (xy 106.68 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d32b3b30-a7aa-423a-a923-17a25845dddf")
+	)
+	(wire
+		(pts
+			(xy 78.74 101.6) (xy 78.74 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d35f4a6c-0db5-4b8f-bf0c-8615444039a7")
+	)
+	(wire
+		(pts
+			(xy 170.18 83.82) (xy 170.18 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a96e6b-068d-475c-a0ab-dfaeb4a40244")
+	)
+	(wire
+		(pts
+			(xy 63.5 35.56) (xy 63.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d777f522-f754-4708-9d4b-85a6a8373d00")
+	)
+	(wire
+		(pts
+			(xy 205.74 76.2) (xy 205.74 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8134878-7efc-4cc4-907e-07623503c45a")
+	)
+	(wire
+		(pts
+			(xy 96.52 78.74) (xy 93.98 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da79614c-ec59-4046-8424-128f898e04aa")
+	)
+	(wire
+		(pts
+			(xy 68.58 76.2) (xy 68.58 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da8e05de-c93d-49d4-9274-4416a46911a7")
+	)
+	(wire
+		(pts
+			(xy 157.48 76.2) (xy 157.48 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da9ec9f2-7e97-4fd0-9557-70c307994d12")
+	)
+	(wire
+		(pts
+			(xy 205.74 63.5) (xy 208.28 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd237b62-d0c9-4c70-adf3-7970e33341cc")
+	)
+	(wire
+		(pts
+			(xy 170.18 76.2) (xy 172.72 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7d2541-9e56-4071-8546-006a84c9c3be")
+	)
+	(wire
+		(pts
+			(xy 78.74 35.56) (xy 78.74 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "debcff68-fc61-4546-b422-5bc98b74a786")
+	)
+	(wire
+		(pts
+			(xy 147.32 55.88) (xy 147.32 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e71b3f1c-351d-4daf-9141-383a31282b03")
+	)
+	(wire
+		(pts
+			(xy 60.96 25.4) (xy 63.5 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76c0bfc-9166-4eb2-bb12-fac9fc55437b")
+	)
+	(wire
+		(pts
+			(xy 68.58 88.9) (xy 68.58 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7729b72-6c2b-41aa-8132-c3fbae6339ac")
+	)
+	(wire
+		(pts
+			(xy 167.64 104.14) (xy 180.34 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9765201-ac22-4fd1-a0ed-1258a2e3c3fe")
+	)
+	(wire
+		(pts
+			(xy 58.42 104.14) (xy 68.58 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed18f152-10d7-4467-a4e3-5391cfe65770")
+	)
+	(wire
+		(pts
+			(xy 81.28 76.2) (xy 83.82 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f565e8fe-df5e-48ec-9009-eb7d69a9fa53")
+	)
+	(wire
+		(pts
+			(xy 180.34 86.36) (xy 180.34 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6511818-d7f5-4890-a4d9-3be97be6a084")
+	)
+	(wire
+		(pts
+			(xy 205.74 60.96) (xy 205.74 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f944b017-ff32-46a8-9c53-43a47ae777a3")
+	)
+	(wire
+		(pts
+			(xy 180.34 104.14) (xy 195.58 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe7afdb1-a918-4709-a18f-579c04b4dec1")
+	)
+	(wire
+		(pts
+			(xy 106.68 25.4) (xy 116.84 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff9799e9-7214-4f98-82b7-05ca5985a663")
+	)
+	(wire
+		(pts
+			(xy 71.12 43.18) (xy 78.74 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fff7a794-e27d-4db1-a86b-e93d71f0a438")
+	)
+	(global_label "2IN-"
+		(shape input)
+		(at 139.7 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e75747e-8e2c-4c19-9965-0ce01c650905")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.9976 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V-"
+		(shape input)
+		(at 153.67 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b260d96-81ee-4a81-bb7f-bfb7a3a4de78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.0238 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "1IN+"
+		(shape input)
+		(at 153.67 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "259fdf12-1bc5-483d-b4fe-6ca97f866ba8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.9676 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "1IN-"
+		(shape input)
+		(at 50.8 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c5a9a2d-1826-4ac2-a1e1-82ecbe5c93b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.0976 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V+"
+		(shape input)
+		(at 60.96 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3468c90b-1b49-43e9-a336-0d2e9b101093")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.3138 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "2IN-"
+		(shape input)
+		(at 176.53 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40997c66-a5ff-4936-bd2f-c0a8c315611e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.2324 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V+"
+		(shape input)
+		(at 153.67 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4acb940a-4030-40d5-86bd-451cdfcf9ccc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.0238 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V+"
+		(shape input)
+		(at 176.53 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5dd24066-f695-4dc3-804a-af2bc46271fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.1762 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "2IN+"
+		(shape input)
+		(at 165.1 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62bb83ed-e35c-4a9d-814a-12a1c4b13626")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.8024 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V-"
+		(shape input)
+		(at 144.78 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8709ecc3-8ead-43ef-a066-d7d91ac8d1a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.1338 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "1IN+"
+		(shape input)
+		(at 76.2 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f425e59-21f9-4c63-bc12-1f58c00dbcc6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.9024 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V-"
+		(shape input)
+		(at 55.88 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "951d5dc5-6cf9-4011-91bb-fb7c8a5c0b3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.2338 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "1OUT"
+		(shape input)
+		(at 153.67 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0779b4e-1c0c-4990-a843-871131e07816")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.8467 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V-"
+		(shape input)
+		(at 176.53 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8e75d35-473b-499e-86d7-f318c579e484")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.1762 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "2OUT"
+		(shape input)
+		(at 208.28 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddafc39b-619f-4fa9-bc70-27e8d56ce4cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.1033 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V+"
+		(shape input)
+		(at 149.86 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e200fca4-a206-4160-b609-97e80b23432f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.2138 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "2OUT"
+		(shape input)
+		(at 176.53 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2f0f85a-ef90-42e0-a176-0b4151c991b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.3533 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "2IN+"
+		(shape input)
+		(at 176.53 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f110a470-4b18-4ae0-b1ae-02a0d25ddfae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.2324 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "1OUT"
+		(shape input)
+		(at 119.38 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6eb1913-d418-4dac-bc28-de0b03e9be75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.2033 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "1IN-"
+		(shape input)
+		(at 153.67 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6ecf92e-b44d-4b79-8b0f-dc0d8af8938a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.9676 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_NPN_C2C1E1E2")
+		(at 200.66 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06036c48-2393-4ce1-b10f-de9f2600efd7")
+		(property "Reference" "Q11"
+			(at 207.01 54.2289 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCM61B"
+			(at 207.01 56.7689 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 200.66 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Double NPN transistors, current mirror configuration"
+			(at 200.66 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c455a3e0-c761-465d-9413-755680091186")
+		)
+		(pin "4"
+			(uuid "5bf5e29e-f1bd-48a3-b998-6a55829a23fd")
+		)
+		(pin "1"
+			(uuid "68814ed1-28f4-4a12-acbd-d2d95663e7e2")
+		)
+		(pin "3"
+			(uuid "4f520bb7-078e-4c42-90de-579ead97a5ad")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 180.34 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "355a1cf5-bb7c-4208-ba55-4c343928711f")
+		(property "Reference" "R11"
+			(at 182.88 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 182.88 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 178.562 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 180.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e17f8b99-c710-422f-b463-4a51ea5de8cd")
+		)
+		(pin "2"
+			(uuid "41e9a8dd-fd30-470e-a987-5ef9d125dc20")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_PNP_PNP_E1B1C2E2B2C1")
+		(at 144.78 63.5 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c8d96e7-19e5-4da5-a149-b232441951ea")
+		(property "Reference" "Q4"
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BCM857BS"
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 149.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual PNP transistor, 6 pin package"
+			(at 144.78 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ccf08e41-20f4-40b4-80c4-e3e9caaebce3")
+		)
+		(pin "3"
+			(uuid "d0936ffe-e85f-4a4f-9b49-5d636493483d")
+		)
+		(pin "1"
+			(uuid "14dee9d5-0afc-4f83-84af-0249e4431540")
+		)
+		(pin "2"
+			(uuid "bfd4deb7-a590-4098-a6d1-ff2e6bb10967")
+		)
+		(pin "6"
+			(uuid "d179ffe6-711c-438a-aabc-6cbda9ca66fe")
+		)
+		(pin "4"
+			(uuid "b0fc341e-5124-4a02-a14a-cb85e160cacf")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_PNP_C2C1E1E2")
+		(at 111.76 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4325573f-6e93-491f-b843-9eaa9bc0e624")
+		(property "Reference" "Q6"
+			(at 118.11 70.2309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCM62B"
+			(at 118.11 72.7709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 111.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Double PNP transistors, current mirror configuration"
+			(at 111.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cd937f11-3687-406d-9fcc-fda04c85ca3d")
+		)
+		(pin "1"
+			(uuid "ff2dc2ce-a8c4-4c84-bdd2-6581cdca8e4a")
+		)
+		(pin "2"
+			(uuid "1fcaf550-522f-46e2-86a5-040a23ac2131")
+		)
+		(pin "4"
+			(uuid "bbf010e5-ddef-4839-a844-5f4163d2fb27")
+		)
+		(instances
+			(project ""
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_PNP_PNP_E1B1C2E2B2C1")
+		(at 104.14 43.18 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4595f702-9fcc-4a3e-aded-db70fe58a2bd")
+		(property "Reference" "Q3"
+			(at 104.14 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BCM857BS"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 109.22 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual PNP transistor, 6 pin package"
+			(at 104.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "71e70426-2935-406b-97c0-04b3d1aea649")
+		)
+		(pin "3"
+			(uuid "c7b14415-00af-4385-9e05-ca5f3ccdc6b6")
+		)
+		(pin "1"
+			(uuid "7b637aa4-0265-4065-9e2c-4305ae164206")
+		)
+		(pin "2"
+			(uuid "7a70de89-c5d5-413f-b754-29cceb59fe28")
+		)
+		(pin "6"
+			(uuid "b9c9cdfd-4294-425e-86e7-c84d7d4b67ee")
+		)
+		(pin "4"
+			(uuid "afe651f9-51ee-4afd-9802-95408f915bb0")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "Q3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 195.58 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b0ea6c6-f1fd-4e6f-808b-de368a025dce")
+		(property "Reference" "R12"
+			(at 198.12 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 198.12 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 193.802 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 195.58 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb84c98d-b1e0-4cb7-8e82-0fef6c92ecfe")
+		)
+		(pin "2"
+			(uuid "5673eb0a-4009-4ce8-9808-49ca03e6b94d")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 158.75 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b27fb8a-c3f2-4268-a0bc-22d6695d091d")
+		(property "Reference" "J1"
+			(at 158.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 158.75 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical"
+			(at 158.75 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 158.75 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "808d456c-8b73-44cd-9293-04baed009ddf")
+		)
+		(pin "1"
+			(uuid "a5eba9ae-1616-4684-aa99-b01dd31b9d93")
+		)
+		(pin "5"
+			(uuid "e0182d55-28b7-48ec-b6e4-a6649d1446ab")
+		)
+		(pin "3"
+			(uuid "eb80b731-111e-4b2c-ae47-fa1dee34631c")
+		)
+		(pin "4"
+			(uuid "13f81c44-77ca-44ed-b61b-24f8e33df497")
+		)
+		(instances
+			(project ""
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_PNP_C2C1E1E2")
+		(at 200.66 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60c34625-2b14-43a5-ad0b-fbbba1eec3d3")
+		(property "Reference" "Q12"
+			(at 207.01 70.2309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCM62B"
+			(at 207.01 72.7709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 200.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Double PNP transistors, current mirror configuration"
+			(at 200.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3c20532b-5fba-4c3c-bf4d-684be54badfc")
+		)
+		(pin "1"
+			(uuid "9a9ce195-c8a0-4b75-af4a-beb68d4541ae")
+		)
+		(pin "2"
+			(uuid "488c3f36-6fc7-4103-9e0e-5571a41aa53f")
+		)
+		(pin "4"
+			(uuid "ec51a1a4-5c5c-4045-b105-2ffeddc24502")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_PNP_PNP_E1B1C2E2B2C1")
+		(at 154.94 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "640ab009-8b65-4f7e-9508-0da27d647f5f")
+		(property "Reference" "Q9"
+			(at 149.86 44.4501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCM857BS"
+			(at 149.86 41.9101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 149.86 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual PNP transistor, 6 pin package"
+			(at 154.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ccf08e41-20f4-40b4-80c4-e3e9caaebce4")
+		)
+		(pin "3"
+			(uuid "d0936ffe-e85f-4a4f-9b49-5d636493483e")
+		)
+		(pin "1"
+			(uuid "2d116039-acfc-4549-8ae5-0056631dbaaa")
+		)
+		(pin "2"
+			(uuid "f6cbf6da-c584-4aee-9e17-e0a26bafa2d6")
+		)
+		(pin "6"
+			(uuid "5af1c74a-6c3d-46f5-99bc-9581149d3fe9")
+		)
+		(pin "4"
+			(uuid "b0fc341e-5124-4a02-a14a-cb85e160cad0")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 152.4 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71016960-b93a-4aa8-83f2-7177be9b8f38")
+		(property "Reference" "R8"
+			(at 154.94 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 154.94 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 150.622 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 152.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ad44fb3-369c-4175-bfdb-a53cea719907")
+		)
+		(pin "2"
+			(uuid "6c98b20f-43ad-4631-bb2b-3a40c518c9cf")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73956c0b-cdca-4641-a7a5-2fabdef1b878")
+		(property "Reference" "R9"
+			(at 160.02 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 160.02 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 155.702 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b5b6c51-b422-4385-8dc9-5d7ce59fcc96")
+		)
+		(pin "2"
+			(uuid "8177a8e2-8ec5-4814-9f4e-eb12c64730bc")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_NPN_NPN_E1B1C2E2B2C1")
+		(at 104.14 86.36 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b69fb66-675f-4a68-82ec-0babad9d1e21")
+		(property "Reference" "Q5"
+			(at 109.22 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCM847BS"
+			(at 109.22 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 109.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NPN transistor, 6 pin package"
+			(at 104.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b3877dd-ebfb-4cf1-b71d-82bbc63a6444")
+		)
+		(pin "3"
+			(uuid "ea56a472-e3a7-4681-902a-1412539514ee")
+		)
+		(pin "6"
+			(uuid "02aee769-1b58-4caa-8a46-376db2581c3c")
+		)
+		(pin "1"
+			(uuid "744c3203-fda3-4938-a7f1-93eb114c7df5")
+		)
+		(pin "5"
+			(uuid "572529a9-0ce7-4578-9571-be46e6754f5b")
+		)
+		(pin "4"
+			(uuid "93e1514b-926c-4942-a77d-5bb086331fc6")
+		)
+		(instances
+			(project ""
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "Q5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_PNP_PNP_E1B1C2E2B2C1")
+		(at 193.04 43.18 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7dc95b68-7138-4a20-ae95-158ba05ea773")
+		(property "Reference" "Q9"
+			(at 193.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BCM857BS"
+			(at 193.04 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 198.12 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual PNP transistor, 6 pin package"
+			(at 193.04 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "cef8a939-16a4-4429-9d5f-0bf1e56e03e7")
+		)
+		(pin "3"
+			(uuid "afc24a43-6b00-471f-99cb-9ede1a6c46af")
+		)
+		(pin "1"
+			(uuid "7b637aa4-0265-4065-9e2c-4305ae164207")
+		)
+		(pin "2"
+			(uuid "7a70de89-c5d5-413f-b754-29cceb59fe29")
+		)
+		(pin "6"
+			(uuid "b9c9cdfd-4294-425e-86e7-c84d7d4b67ef")
+		)
+		(pin "4"
+			(uuid "179d1658-5780-4985-8fee-e30c6639116d")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "Q9")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 167.64 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88e89ac8-dd8b-4824-8ce0-bcb6cb2acec4")
+		(property "Reference" "D2"
+			(at 170.18 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZX585"
+			(at 172.72 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 167.64 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 167.64 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5de0176e-81d6-4e15-8310-54becacb1b42")
+		)
+		(pin "1"
+			(uuid "6ab20eb3-d77a-4a86-a232-97e317919e2f")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f0245f7-1738-460e-b179-18120c27c8ac")
+		(property "Reference" "R7"
+			(at 81.28 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "56k"
+			(at 81.28 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 76.962 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0228dbf-7326-4c03-9399-ef2d9f786be3")
+		)
+		(pin "2"
+			(uuid "b5f700cd-c420-45e3-8c28-cc03a57022ac")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90b5c313-ac45-4ef2-8d01-98e9488cb897")
+		(property "Reference" "C2"
+			(at 189.23 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 189.23 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 193.04 77.7748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.23 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e069c21c-4f50-4fff-9771-932059149332")
+		)
+		(pin "1"
+			(uuid "d14c2de5-f597-4cc3-b3f0-89e381af881c")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 167.64 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9191c6bc-4b96-4cc4-9bf4-0a8fb6c28bac")
+		(property "Reference" "R10"
+			(at 170.18 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "56k"
+			(at 170.18 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 165.862 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8339d0bb-bc6b-43b0-bebd-aca2865170ec")
+		)
+		(pin "2"
+			(uuid "115cb3d8-bb7c-470a-a965-48becd2230d3")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91f99bd6-7e3d-4e42-80a4-681da5b0fe21")
+		(property "Reference" "R5"
+			(at 109.22 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 109.22 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 104.902 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb7a0abf-f2c8-449f-ba22-c4092271eeb2")
+		)
+		(pin "2"
+			(uuid "1331ca66-8c60-45f0-8ba3-6fff2d6e5cb0")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_PNP_PNP_E1B1C2E2B2C1")
+		(at 55.88 63.5 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a15c184e-4225-47a8-8505-0f6a1b226715")
+		(property "Reference" "Q2"
+			(at 55.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BCM857BS"
+			(at 55.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 60.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual PNP transistor, 6 pin package"
+			(at 55.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ccf08e41-20f4-40b4-80c4-e3e9caaebce5")
+		)
+		(pin "3"
+			(uuid "d0936ffe-e85f-4a4f-9b49-5d636493483f")
+		)
+		(pin "1"
+			(uuid "7b637aa4-0265-4065-9e2c-4305ae164205")
+		)
+		(pin "2"
+			(uuid "7a70de89-c5d5-413f-b754-29cceb59fe27")
+		)
+		(pin "6"
+			(uuid "b9c9cdfd-4294-425e-86e7-c84d7d4b67ed")
+		)
+		(pin "4"
+			(uuid "b0fc341e-5124-4a02-a14a-cb85e160cad1")
+		)
+		(instances
+			(project ""
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_NPN_NPN_E1B1C2E2B2C1")
+		(at 193.04 86.36 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a21c6e94-20ea-455d-b51e-11efe8e7c2da")
+		(property "Reference" "Q10"
+			(at 198.12 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCM847BS"
+			(at 198.12 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 198.12 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NPN transistor, 6 pin package"
+			(at 193.04 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b3877dd-ebfb-4cf1-b71d-82bbc63a6445")
+		)
+		(pin "3"
+			(uuid "5ef01bf0-2276-4c6b-a675-5fe6be523eee")
+		)
+		(pin "6"
+			(uuid "02aee769-1b58-4caa-8a46-376db2581c3d")
+		)
+		(pin "1"
+			(uuid "744c3203-fda3-4938-a7f1-93eb114c7df6")
+		)
+		(pin "5"
+			(uuid "0b3a54f4-6808-4580-80fa-eac1789654bb")
+		)
+		(pin "4"
+			(uuid "dd736c7f-a0c8-4c7e-b029-3515fbe0962d")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "Q10")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 68.58 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2441c41-e992-4f9e-9955-7bc520281dc4")
+		(property "Reference" "R1"
+			(at 71.12 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 71.12 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 66.802 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 68.58 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a68f7853-0e80-4fe5-8b7f-5da6b5bd8b3d")
+		)
+		(pin "2"
+			(uuid "17e37a13-2174-4cd3-983e-12693582d04b")
+		)
+		(instances
+			(project ""
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_NPN_NPN_E1B1C2E2B2C1")
+		(at 88.9 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a44958c3-e0b6-4493-afa9-ab7a7207560c")
+		(property "Reference" "Q5"
+			(at 88.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BCM847BS"
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 93.98 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NPN transistor, 6 pin package"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b3877dd-ebfb-4cf1-b71d-82bbc63a6446")
+		)
+		(pin "3"
+			(uuid "ea56a472-e3a7-4681-902a-1412539514ef")
+		)
+		(pin "6"
+			(uuid "02aee769-1b58-4caa-8a46-376db2581c3e")
+		)
+		(pin "1"
+			(uuid "744c3203-fda3-4938-a7f1-93eb114c7df7")
+		)
+		(pin "5"
+			(uuid "572529a9-0ce7-4578-9571-be46e6754f5c")
+		)
+		(pin "4"
+			(uuid "93e1514b-926c-4942-a77d-5bb086331fc7")
+		)
+		(instances
+			(project ""
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_NPN_C2C1E1E2")
+		(at 63.5 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5384daf-8691-4496-8a9d-8aa861ac6060")
+		(property "Reference" "Q1"
+			(at 69.85 82.1689 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCM61B"
+			(at 69.85 84.7089 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 63.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Double NPN transistors, current mirror configuration"
+			(at 63.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c851e0ae-798c-4175-bc4c-0946940f59cd")
+		)
+		(pin "4"
+			(uuid "c56fa485-ce4e-4022-a562-e8adcc8763f3")
+		)
+		(pin "1"
+			(uuid "f0325868-f718-4bb3-8505-5da81efd459c")
+		)
+		(pin "3"
+			(uuid "c2cb2c6c-459e-4803-bbc1-2688893899d4")
+		)
+		(instances
+			(project ""
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 63.5 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac8ea1e5-82d6-4480-b614-15cfb5da942c")
+		(property "Reference" "R3"
+			(at 66.04 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 66.04 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 61.722 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 63.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a91e340b-6c51-4590-93aa-d17a28115bdb")
+		)
+		(pin "2"
+			(uuid "cb5a22ea-148a-4c67-bffd-9b4f7ed98f16")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 91.44 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "add29b8a-f1e8-4905-a1af-449268ce12fd")
+		(property "Reference" "R4"
+			(at 93.98 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 93.98 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 89.662 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 91.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a88d1822-600c-4828-8480-80973539cfff")
+		)
+		(pin "2"
+			(uuid "28c09ba7-ca6c-4e21-9e51-c27339f8b679")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 147.32 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3511afb-eab2-4c7a-9e45-874109942683")
+		(property "Reference" "R6"
+			(at 149.86 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 149.86 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 145.542 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbbd75c9-f3d3-4001-b6ee-06ba3c78e1a9")
+		)
+		(pin "2"
+			(uuid "0d404380-c4f3-4f13-802b-8a3a7c5fb195")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_NPN_C2C1E1E2")
+		(at 152.4 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b86fb05b-d1cc-47e2-ae72-92f99516794c")
+		(property "Reference" "Q8"
+			(at 158.75 82.1689 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCM61B"
+			(at 158.75 84.7089 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Double NPN transistors, current mirror configuration"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5af954c-084a-4251-9567-3f8dd99f616e")
+		)
+		(pin "4"
+			(uuid "bc8efacc-cdfa-493a-8249-9788a323c832")
+		)
+		(pin "1"
+			(uuid "c6fe49eb-9cb1-4d96-8a7b-e4b51d976850")
+		)
+		(pin "3"
+			(uuid "c4046ac3-487e-4226-894f-c8fc9c0a6a02")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_PNP_PNP_E1B1C2E2B2C1")
+		(at 160.02 63.5 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc529d96-9710-4d26-8088-5db32beeded2")
+		(property "Reference" "Q4"
+			(at 160.02 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BCM857BS"
+			(at 160.02 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 154.94 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual PNP transistor, 6 pin package"
+			(at 160.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "abcce7b6-71af-489b-8a03-81c11cc6941a")
+		)
+		(pin "3"
+			(uuid "228aba39-2336-4fe2-bcb8-5ef67bbff90e")
+		)
+		(pin "1"
+			(uuid "7b637aa4-0265-4065-9e2c-4305ae164208")
+		)
+		(pin "2"
+			(uuid "7a70de89-c5d5-413f-b754-29cceb59fe2a")
+		)
+		(pin "6"
+			(uuid "b9c9cdfd-4294-425e-86e7-c84d7d4b67f0")
+		)
+		(pin "4"
+			(uuid "96c4d295-535e-4a81-b122-d4818ca928f0")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "Q4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_NPN_C2C1E1E2")
+		(at 111.76 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2bb6ef1-a3a0-497b-9ab5-8589ed0b62f8")
+		(property "Reference" "Q7"
+			(at 118.11 54.2289 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCM61B"
+			(at 118.11 56.7689 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 111.76 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Double NPN transistors, current mirror configuration"
+			(at 111.76 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "10e0ad65-6ff3-4216-9088-ebec9f810609")
+		)
+		(pin "4"
+			(uuid "f945ca1c-bf39-4a65-bdc1-9d5223f46a70")
+		)
+		(pin "1"
+			(uuid "350a3e5f-78fd-4c82-87a7-db98ac5aecfb")
+		)
+		(pin "3"
+			(uuid "f6b61cfc-ab37-444d-a8ed-2ed82380f326")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 78.74 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3f3da54-b7ee-4d52-8a44-233388c29752")
+		(property "Reference" "D1"
+			(at 81.28 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZX585"
+			(at 83.82 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 78.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 78.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d65e3dda-391d-47da-a2c9-309ae891a2f9")
+		)
+		(pin "1"
+			(uuid "39d1654c-a977-4240-81c0-718cd5c0db71")
+		)
+		(instances
+			(project ""
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_PNP_PNP_E1B1C2E2B2C1")
+		(at 66.04 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd827c7e-5c2c-4746-923b-7d2d2c66b9ea")
+		(property "Reference" "Q3"
+			(at 60.96 44.4501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BCM857BS"
+			(at 60.96 41.9101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 60.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual PNP transistor, 6 pin package"
+			(at 66.04 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ccf08e41-20f4-40b4-80c4-e3e9caaebce6")
+		)
+		(pin "3"
+			(uuid "d0936ffe-e85f-4a4f-9b49-5d6364934840")
+		)
+		(pin "1"
+			(uuid "fb75b3e6-01c4-444d-a825-53bbb94bc12b")
+		)
+		(pin "2"
+			(uuid "e4e97b6d-30a0-47af-970a-8c8b44f7e38a")
+		)
+		(pin "6"
+			(uuid "624f944c-d3cb-46bd-8c01-290eef653a70")
+		)
+		(pin "4"
+			(uuid "b0fc341e-5124-4a02-a14a-cb85e160cad2")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4bb963c-31aa-4645-bb6e-2ae803ee5844")
+		(property "Reference" "R2"
+			(at 60.96 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 60.96 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 56.642 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9fd6f3a-a1cd-4f68-8403-beb171d4eb41")
+		)
+		(pin "2"
+			(uuid "9ba921bf-bd3f-4f3a-abf1-040306fcbb2f")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 171.45 135.89 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc80258b-0f58-4197-b117-75cd3293fe7a")
+		(property "Reference" "J2"
+			(at 171.45 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 171.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical"
+			(at 171.45 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 171.45 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a8e73fde-0cfe-4b25-930a-332da405f3e1")
+		)
+		(pin "1"
+			(uuid "aa12b30f-00bd-4165-8992-620e18b90ec4")
+		)
+		(pin "5"
+			(uuid "ca2c30bc-9523-40a3-b5d1-df04ff67add4")
+		)
+		(pin "3"
+			(uuid "13a3ff59-ba75-4526-9b9d-3f92c544301f")
+		)
+		(pin "4"
+			(uuid "f5759566-c906-4b1d-bb90-2bcf8d200d25")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_PNP_PNP_E1B1C2E2B2C1")
+		(at 71.12 63.5 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e91de4d5-06d5-4d53-bb5d-40c210c1314c")
+		(property "Reference" "Q2"
+			(at 71.12 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BCM857BS"
+			(at 71.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual PNP transistor, 6 pin package"
+			(at 71.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ccf08e41-20f4-40b4-80c4-e3e9caaebce7")
+		)
+		(pin "3"
+			(uuid "d0936ffe-e85f-4a4f-9b49-5d6364934841")
+		)
+		(pin "1"
+			(uuid "7b637aa4-0265-4065-9e2c-4305ae164209")
+		)
+		(pin "2"
+			(uuid "7a70de89-c5d5-413f-b754-29cceb59fe2b")
+		)
+		(pin "6"
+			(uuid "b9c9cdfd-4294-425e-86e7-c84d7d4b67f1")
+		)
+		(pin "4"
+			(uuid "b0fc341e-5124-4a02-a14a-cb85e160cad3")
+		)
+		(instances
+			(project ""
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "Q2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecb47172-1459-41f8-9353-575181a01d2a")
+		(property "Reference" "C1"
+			(at 100.33 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 100.33 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 104.14 77.7748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd47be39-6510-45f9-9f7a-1351394bd90c")
+		)
+		(pin "1"
+			(uuid "2eaf8c02-04ff-44ef-a69a-4c761f746cf0")
+		)
+		(instances
+			(project ""
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_Dual_NPN_NPN_E1B1C2E2B2C1")
+		(at 177.8 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa9c9da6-559f-4ab6-9e40-d480735b1361")
+		(property "Reference" "Q10"
+			(at 177.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BCM847BS"
+			(at 177.8 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 182.88 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NPN transistor, 6 pin package"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bcb1aea7-c531-4dc8-8e74-5faed03df6b3")
+		)
+		(pin "3"
+			(uuid "ea56a472-e3a7-4681-902a-1412539514f0")
+		)
+		(pin "6"
+			(uuid "4b0bc329-b14d-43ac-bede-f8e57162f36f")
+		)
+		(pin "1"
+			(uuid "bea9b3f5-d632-454f-9636-3d85de884d67")
+		)
+		(pin "5"
+			(uuid "572529a9-0ce7-4578-9571-be46e6754f5d")
+		)
+		(pin "4"
+			(uuid "93e1514b-926c-4942-a77d-5bb086331fc8")
+		)
+		(instances
+			(project "PHASE-0.1-1"
+				(path "/6159c362-f2b3-4459-b5ce-b63194590b55"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
